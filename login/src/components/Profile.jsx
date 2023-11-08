@@ -5,7 +5,7 @@ const Profile = () => {
   const {user} = useContext(UserContext);
 
   if (!user) return <div>Enter username</div>
-  else return <div>Username: {user}</div>
+  else return <div>Username: {user.username}</div>
   
 }
 
