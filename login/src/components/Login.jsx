@@ -12,7 +12,9 @@ const Login = () => {
     setUser({username, password})
   }
   return (
+   
     <div>
+       <h1>Login</h1>
       <input type='text' placeholder='username' value={username} onChange={(e) => setUsername(e.target.value)}></input>
       <input type='text' placeholder='password' value={password} onChange={(e) => setPassword(e.target.value)}></input>
     <button onClick={handleSubmit}>Submit</button>
